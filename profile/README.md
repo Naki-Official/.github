@@ -35,10 +35,11 @@ The architecture of Naki's system includes several key components and layers:
 | --------- | --------- | ----------- | ---- |
 | **AI Model Training** | LLM, Stable Diffusion | Trains AI models to generate content, process voice data, and enhance Virtual Characters based on community input. | [AI Model Training](https://github.com/Naki-Official/llm-fine-tuning) |
 | **Content Creation** | Image, Music, Video | AI-generated content is created based on community standards and input, stored, and retrieved from IPFS. | [Content Creation](https://github.com/Naki-Official/content-creation) |
-| **Governance** | Naki DAO | Community members create proposals, vote, and contribute to the training and evolution of Virtual Characters. | [Governance](https://github.com/Naki-Official/governance) |
 | **Voice and Text Processing** | Voice Cloning, Prompt Templates | AI processes voice data and text interactions to enhance the realism and personalization of Virtual Characters. | [Voice and Text Processing](https://github.com/Naki-Official/voice-cloning) |
 | **UI** | React, Next.js | The frontend interfaces and smart contracts managing user interactions, NFTs, and social applications. | [UI](https://github.com/Naki-Official/naki-web-app-ui) |
 | **Backend** | FastAPI, MongoDB | The off-chain AI processing, model training, and data management, including integration with IPFS and governance platforms. | [Backend](https://github.com/Naki-Official/naki-web-app-backend) |
+
+**Note:** The links to the repositories above are private. Please contact us at **business@naki.ai** to request access.
 
 ## Workflow
 
