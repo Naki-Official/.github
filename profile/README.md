@@ -1,11 +1,11 @@
 
 # Naki - Community Owned & Collectively Built AI Agent Protocol
 
-![Naki Architecture](./naki-architecture.png)
-
 ## Project Overview
 
 Naki is building a **Community Owned & Collectively Built AI Agent protocol for Entertainment**, where Virtual Humans and Characters evolve over time based on Community Input. These AI-driven Virtual Characters have their own unique personalities, generate content, and interact directly with fans. The platform allows contributors to add value through data, content, and interactions, refining and improving the AI models over time.
+
+![Naki Architecture](./naki-architecture.png)
 
 ## System Architecture
 
