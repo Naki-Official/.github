@@ -1,9 +1,11 @@
 
-# Naki - Community Owned & Collectively Built AI Agent Protocol
+# Naki - IP Launchpad for AI-Generated Characters Assets
 
 ## Project Overview
 
-Naki is building a **Community Owned & Collectively Built AI Agent protocol for Entertainment**, where Virtual Humans and Characters evolve over time based on Community Input. These AI-driven Virtual Characters have their own unique personalities, generate content, and interact directly with fans. The platform allows contributors to add value through data, content, and interactions, refining and improving the AI models over time.
+Naki is building a **IP Launchpad for AI-Generated Characters Assets**, Naki wants to empower Creators to collaboratively build and monetize their AI Characters IP. Creators can create an AI Character, mint it as an NFT registered as IP Asset. Other creators can then leverage these IP Assets to create new contents for the AI Characters, sharing revenue with the original IP owner when income is generated.
+
+Over time, popular AI Characters will attract more content contributions, ultimately evolving into crowd-created virtual Influencers that can generate millions in revenue. The platform allows contributors to add value through data, content, and interactions, refining and improving the AI models over time.
 
 ![Naki Architecture](./naki-architecture.png)
 
@@ -17,7 +19,7 @@ The architecture of Naki's system includes several key components and layers:
 
 3. **Contribution NFT Smart Contract**: Mints NFTs that represent the contributions made by users, which can be used within the ecosystem.
 
-4. **DApp/SocialApp**: The interface for users to interact with Virtual Characters, view content, and participate in community-driven governance.
+4. **DApp/SocialApp**: The interface for users to interact with Virtual Characters and consume content.
 
 5. **AI Studio (Off-Chain)**: Processes contributions, creates content, and trains AI models based on the input received from contributors. 
 
