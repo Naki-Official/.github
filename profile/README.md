@@ -42,16 +42,3 @@ The architecture of the system includes several key components and layers:
 | **Backend** | FastAPI, MongoDB | The off-chain AI processing, model training, and data management, including integration with IPFS and governance platforms. | [Backend](https://github.com/Naki-Official/naki-web-app-backend) |
 
 **Note:** The links to the repositories above are private. Please contact us at **business@naki.ai** to request access.
-
-## Workflow
-
-1. **Content Submission**: Contributors submit data (e.g., image, music, voice) through the UI.
-2. **Data Processing**: The AI Studio processes the data, enhancing the Virtual Characters' personalities and content generation capabilities.
-3. **Proposal Creation**: Community members create proposals through the Governance Platform (Naki DAO) to train or refine AI models.
-4. **Model Training**: Proposals that are accepted lead to the training of AI models using community-contributed data.
-5. **Content Creation**: The trained models generate new content, which is uploaded to IPFS and made available to users.
-6. **User Interaction**: Users interact with Virtual Characters via the DApp/SocialApp, and their interactions are used to further refine the models.
-
-## Contributing
-
-Naki is built collectively by the community. Contributions can be made by providing data, participating in governance, or developing new features. All contributions are rewarded through the Revenue Factory Smart Contract.
