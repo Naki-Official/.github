@@ -9,27 +9,27 @@ Over time, popular AI Characters will attract more content contributions, ultima
 
 ![Naki Architecture](./naki-architecture.png)
 
+
 ## System Architecture
 
-The architecture of Naki's system includes several key components and layers:
+The architecture of the system includes several key components and layers:
 
-1. **Contributors**: Individuals who provide data, content, and interactions that contribute to the development and refinement of AI models. Contributors are rewarded through the Revenue Factory Smart Contract.
+1. **User Wallet (Owner Account)**: Represents the user's wallet, allowing ownership and control over the Character NFT and associated IP Assets, as well as interaction for transactions and permissions management.
 
-2. **Revenue Factory Smart Contract**: Manages the distribution of rewards to contributors based on the value and impact of their contributions.
+2. **Character Digital Identity (NFT)**: The Character NFT serves as a unique digital identity on the blockchain, storing metadata and linking with the smart account to manage interactions and asset ownership.
 
-3. **Contribution NFT Smart Contract**: Mints NFTs that represent the contributions made by users, which can be used within the ecosystem.
+3. **Smart Account (ERC-6551)**: A decentralized entity that manages IP Assets, licenses, and tokens. It executes functions related to asset management, transactions, and governance between the user wallet, character identity, and generated assets.
 
-4. **DApp/SocialApp**: The interface for users to interact with Virtual Characters and consume content.
+4. **Decentralized Storage (IPFS)**: A decentralized storage system for metadata and IP Assets, ensuring distributed, secure storage and easy retrieval tied to the Character NFT.
 
-5. **AI Studio (Off-Chain)**: Processes contributions, creates content, and trains AI models based on the input received from contributors. 
+5. **IP Assets (Images, Knowledge, Voices, LoRAs)**: Represents the generated assets linked to the Character NFT, such as images, knowledge repositories, voice data, and LoRA models, which are stored on the decentralized network and can be transferred or licensed.
 
-6. **Governance Platform (Naki DAO)**: The decentralized platform where community members create proposals, vote on decisions, and influence the training and development of AI models.
+6. **AI Studio (Off-Chain)**: Generates and processes content such as images, voices, and knowledge, and trains AI models (LoRAs) based on user input, contributing to the system's content creation and enhancement.
 
-7. **IPFS**: A decentralized file system that stores AI models, content, and data contributions securely. Data and models are uploaded and retrieved from IPFS as needed.
+7. **Modules**: Provide additional functionalities, allowing character capabilities to expand, including interactions with different platforms or executing transactions as directed by the smart account.
 
-8. **Multimodal AI (Off-Chain)**: A sophisticated AI system that incorporates various forms of data (e.g., images, voice, text) to enhance the capabilities of Virtual Characters. This system also includes vector databases and tools for voice cloning and ID preservation.
-
-9. **Messaging**: Enables direct communication between users and Virtual Characters, facilitating ongoing interaction and content generation.
+8. **Tokens (License NFTs, Royalty NFTs, etc.)**: Manage tokenized assets like licenses and royalties, representing ownership of IP Assets and enabling monetization, trading, or licensing within the ecosystem.
+   
 
 ## Key Components & Techniques
 
